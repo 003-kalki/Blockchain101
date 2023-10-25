@@ -1,181 +1,179 @@
-/* Apply responsive font size and centering */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
 body {
-    background-color: black;
+  width: 100%;
+  height: 100%;
+  background-color: black;
 }
 
 .logotext {
-    position: absolute;
-    top: 25%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center; /* Center the text horizontally */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+ 
 }
 
 .logotext h1 {
-    font-family: "Roboto Mono", monospace;
-    font-weight: bold;
-    font-style: italic;
-    color: white;
-    font-size: 9em; /* Adjust the value for responsiveness */
-    margin: 0; /* Remove default margins */
+  font-family: "Roboto Mono", monospace;
+  font-weight: bold;
+  font-style: italic;
+  color: white;
+  font-size: 10vw; 
+  margin: 0; 
+  flex-wrap: wrap;
+  top: 40%;
 }
 
 .logoimg {
-    position: absolute;
-    top: 25%;
-    left: 48%;
-    transform: translate(-50%, -50%);
+  position: absolute;
+  top: 20%;
+  left: 48%;
+  transform: translate(-50%, -50%);
 }
 
 .logoimg img {
-    width:340px; /* Initial image width */
-    margin-right: 10px; /* Maintain aspect ratio */
+  width: 340px; 
+  margin-right: 10px;
+}
+
+.smallTxt-container {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .smallTxt {
-    position: absolute;
-    top: 34%; /* Adjust the top position to vertically center */
-    left: 21%; /* Adjust the left position for the left text */
-    transform: translate(0, -50%);
-    text-align: left; 
-}
-   
-
-.smallTxt#sTright {
-    left: auto; 
-    top: 34%;
-    right: 28%; 
-    text-align: right; 
+  position: absolute;
+  font-family: "Roboto Mono", monospace;
+  font-weight: bold;
+  color: white;
+  font-size: 1em;
+  width: auto; 
 }
 
-.smallTxt h2,
-.smallTxt h3,
-.description {
-    font-family: "Roboto Mono", monospace;
-    font-weight: bold;
-    color: white;
-    font-size: 1em;
-    margin: 0;
+#sTleft {
+  top: 25%; 
+  margin-left: 60%;
+}
+
+#sTright {
+  top: 25%;
+  margin-left: 270px;
 }
 
 .description h4 {
-    text-align: center; /* Center the text horizontally */
-    margin-top: 490px;
-    display: block;
-    padding-right: 100px;
+  text-align: center; 
+  margin-top: 200px;
+  font-family: "Roboto Mono", monospace;
+  color: white;
+  font-size: 1.5em;
 }
 
 .rectnav {
-    width: 1900px; 
-    height: 150px; 
-    border: 1px solid white; 
-    background-color: transparent; 
-    justify-content: space-between;
-    margin-top:135px; 
-    display: flex;
-    align-items: center;
+  width: 1900px;
+  height: 150px;
+  border: 1px solid white;
+  background-color: transparent;
+  justify-content: space-between;
+  margin-top: 135px;
+  display: flex;
+  align-items: center;
 }
 
 .nav-item {
-    font-family: "Roboto Mono", monospace;
-    font-weight: bold;
-    color: #E48D0A;
-    font-size: 30px;
-    margin:0;
-    margin-left:40px; 
-    margin-top: -40px;
+  font-family: "Roboto Mono", monospace;
+  font-weight: bold;
+  color: #e48d0a;
+  font-size: 30px;
+  margin: 0;
+  margin-left: 40px;
+  margin-top: -40px;
 }
 
 .divider {
-    width: 1px;
-    height: 150px;
-    background-color: white;
-
+  width: 1px;
+  height: 150px;
+  background-color: white;
 }
-.passage{
-    font-family: "Roboto Mono", monospace;
-    font-weight: bold;
-    color: #E48D0A;
-    font-size: 16px;
-    margin:0;
+.passage {
+  font-family: "Roboto Mono", monospace;
+  font-weight: bold;
+  color: #e48d0a;
+  font-size: 16px;
+  margin: 0;
 }
 #button1 {
-    font-family: "Roboto Mono", monospace;
-    font-weight: bold;
-    color: #E48D0A;
-    background-color:black;
-    font-size: 30px;
-    margin:0;
-   
+  font-family: "Roboto Mono", monospace;
+  font-weight: bold;
+  color: #e48d0a;
+  background-color: black;
+  font-size: 30px;
+  margin: 0;
 }
 #button2 {
-    font-family: "Roboto Mono", monospace;
-    font-weight: bold;
-    color: #E48D0A;
-    background-color:black;
-    font-size: 30px;
-    margin:0;
+  font-family: "Roboto Mono", monospace;
+  font-weight: bold;
+  color: #e48d0a;
+  background-color: black;
+  font-size: 30px;
+  margin: 0;
 }
-#button3{
-    font-family: "Roboto Mono", monospace;
-    font-weight: bold;
-    color: #E48D0A;
-    background-color:black;
-    font-size: 30px;
-    margin:0;
+#button3 {
+  font-family: "Roboto Mono", monospace;
+  font-weight: bold;
+  color: #e48d0a;
+  background-color: black;
+  font-size: 30px;
+  margin: 0;
 }
 #button4 {
-    font-family: "Roboto Mono", monospace;
-    font-weight: bold;
-    color: #E48D0A;
-    background-color:black;
-    font-size: 30px;
-    margin:0;
-    border-width: 1px;
-    margin-left:40px; 
-    margin-top: -40px;
-}
-/* reference edit */
-.Rlinks{
-    font-family: "Roboto Mono", monospace;
-    font-weight: bold;
-    color: #E48D0A;
-    font-size: 30px;
-    margin:0;
-    margin-left:40px; 
-    margin-top: -40px;
+  font-family: "Roboto Mono", monospace;
+  font-weight: bold;
+  color: #e48d0a;
+  background-color: black;
+  font-size: 30px;
+  margin: 0;
+  border-width: 1px;
+  margin-right: 15%;
 }
 
-/* Media query for smaller screens */
-@media (max-width: 768px) {
-    .logotext h1 {
-        font-size: 2em; /* Adjust the font size for smaller screens */
-    }
-    
-
-    .logoimg img {
-        width: 100%; /* Set the width to 100% to make the image fluid within its container */
-        max-width: 800px; /* Add a max-width to prevent the image from becoming too large on very small screens */
-        margin-right: 0; /* Remove the margin to make the image touch the edge of the container */
-    }
-
-    
-     .logoimg {
-          
-            top:35%;
-            left:30%;
-            transform: translate(65%, -100%);
-        }
-    
-    .logotext {
-        position: absolute;
-        top: 25%;
-        left: -115%;
-        transform: translate(65%, -90%);
-        text-align: center; /* Center the text horizontally */
-    }
-.logotext h1{
-    font-size: 6em;
+.Rlinks {
+  font-family: "Roboto Mono", monospace;
+  font-weight: bold;
+  color: #e48d0a;
+  font-size: 30px;
+  margin: 0;
+  margin-left: 40px;
+  margin-top: -40px;
 }
-      
+.coin-list {
+  position: absolute;
+  top: 350px;
+  right: 2%;
+
+  display: flex;
+  align-items: center;
 }
+.coin {
+  font-size: 16px;
+  font-family: "Roboto Mono", monospace;
+  color: white;
+  font-weight: bold;
+  padding: 7px 7px;
+}
+
+.coin img {
+  width: 30px;
+  margin-right: 10px;
+}
+.coin h3 {
+  color: #fff;
+  margin-bottom: 5px;
+}
+
