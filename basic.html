@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="basic.css" />
+
+    <title>Basics</title>
+  </head>
+  <body>
+    <div class="container">
+      <h class="head">Blockchain Basics</h>
+      <h1 class="heading">Defining Blockchain:</h>
+      <p class="para"
+        >If you google blockchain, you will quickly be presented with a
+        confusing array of metaphors and definitions all of which attempt to
+        “define” the term. What the best responses to this query agree on: a
+        blockchain is a decentralized database that coordinates agreement on an
+        append-only history of transactions across a peer-to-peer network. This
+        definition contains some very complex ideas that will require a fair
+        amount of effort to unpack.</p
+      >
+      <h2 class="heading">Elements of a Blockchain:</h2>
+      <p1 class="para">Throughout this discussion of blockchain technology, there have
+        been many mentions of different components of a blockchain
+        application such as nodes, community of verifiers, and peer-to-
+        peer network. At times this can be confusing because it is unclear
+        who plays which role in a typical blockchain. Let’s dive deeper into
+        some of the roles and functions that go into blockchain
+        architecture.</p1>
+        <h3 class="heading">Nodes:</h3>
+     <p2 class="para">
+      Any computer connecting to a blockchain network is a node
+participating in the network. Now if you want to be a more active
+participant in the blockchain and become a member of the
+“community of verifiers,” you have to become a full node. To
+become a full node, you must have a computer (hardware)
+connected to a blockchain network and you must download a
+complete copy of the blockchain (software) onto your computer. As
+of the writing of this text, the size of the Bitcoin blockchain
+download was over 200 GB and growing. It could take several days to download 
+a complete copy of the Bitcoin blockchain. A full node
+includes the complete copy of the blockchain and also works to
+fully validate both the transactions and the blocks. To operate as a
+full node on a blockchain application certainly requires a high-
+powered computer setup, including lots of Remote Access Memory
+(RAM), large quantities of free space on your hard drive, and a
+good broadband connection. One user can operate multiple nodes
+on a blockchain, and there also exist “partial nodes” that point to
+full nodes for their data.
+     </br>
+    </br>
+     In order for blockchain applications to grow, it is very important that
+there are a lot of nodes on the network. The more independent
+nodes there are, the more control of the network is decentralized
+and replicated, fostering greater blockchain security. Some people
+and organizations volunteer to use their spare computing resources
+to help run a blockchain by functioning as full nodes. These full
+nodes are what we referred to earlier as the “peer-to-peer network”
+because they have agreed to take on the role of verifying that
+transactions and blocks are accurate.
+     </p2>
+     <h4 class="heading">Blocks:</h4>
+     <p3 class="para">Any full node participating on a blockchain can gain the right to
+      package the transactions as they occur into a block. As a
+      reference point, blocks on the Bitcoin blockchain are currently
+      about 1 MB in size and take about ten minutes to create. Once a
+      block is created, it is linked to the previous block using a special
+      address as well as cryptography. Grouping these connected blocks
+      into a chain is why the database is called a blockchain, and it
+      represents a chronological history of all the events that occurred in
+      the network. Looking at transactions in a blockchain you will mostly
+      see numbers and letters, representing the alphanumeric address
+      associated with the transaction, as well as the hash (or
+      compression) of the previous blocks.</p3>
+      <h5 class="heading">Public and Private Keys:</h5>
+     <p4 class="para">The ability to use addresses when transacting on a blockchain
+      allows the network to verify transactions without necessarily
+      revealing lots of personal information. Instead, asymmetric
+cryptography built into the blockchain system allows individuals to
+use a private key to unlock their address while only sharing a public
+key with the others involved in the transaction. Essentially,
+transactions on a blockchain transfer value between public keys. It
+is this combination of transparency and public-key identities that
+ensures that users maintain their “trust” in the transactions logged
+on the blockchain system. You can think of these as analogous to a
+safety deposit box at a bank – to unlock the box, there is the bank’s
+key (public) and the customer key (private) that only the customer
+has access to. Similarly, with an address on a blockchain network,
+you have a public portion of your account address and a private
+portion that allows you (and only you) to unlock access to it for
+making transactions. To perform transactions on a blockchain, you
+need to digitally sign your transactions with your private key.
+    </p4>
+    <h6 class="heading">Mining:</h6>
+     <p5 class="para">As part of the “community of verifiers,” a full node helps validate a
+      blockchain database through a practice called mining. Miners are
+      nodes that perform a certain amount of computational work –
+      racing with each other to solve a mathematical puzzle – in order to
+      help keep the network going. Every time a miner successfully
+      solves the puzzle, they win the right to contribute the newest block
+      of transactions to the blockchain. The winning miner sends out a
+      message to the entire network, and receives newly minted tokens
+      as an incentive in exchange for the service of helping maintain the
+      database by mining.
+    </p5>
+      
+    <h6 class="heading">Tokens or Coins:</h6>
+    <p5 class="para">One of the ingenious things about blockchain technology is that it
+      was developed using some elements of game theory and
+      economics. In order to motivate people to participate in a
+      blockchain as a full node and help secure the history of
+      transactions in the database, these systems include an incentive
+      structure that uses “digital tokens.” A digital token is just a way of
+      representing value on a blockchain application.
+   </p5>
+    </div>
+
+  </body>
+</html>
