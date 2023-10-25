@@ -16,12 +16,12 @@ button.addEventListener("click", function () {
   
   const referenceMaterialURL = "reference.html";
 
-  // Open a new window or tab with the reference.html file
+  
   window.open(referenceMaterialURL, "_blank");
 });
 
 const button2 = document.getElementById("button2"); 
-button2.addEventListener("click", function () {symbolsymbol
+button2.addEventListener("click", function () {
  
   const referenceMaterialURL = "basic.html";
 
