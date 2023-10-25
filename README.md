@@ -4,7 +4,7 @@ Welcome to **Blockchain101** - Your Ultimate Resource for Learning Blockchain Te
 
 ## Overview
 
-Blockchain101 is a static frontend website designed to help beginners and enthusiasts dive into the world of blockchain technology. This repository contains the source code for the website, which provides curated resources, links to top YouTube channels, reference books, and future application ideas to empower you on your blockchain journey.
+Blockchain101 is a frontend website designed to help beginners and enthusiasts dive into the world of blockchain technology. This repository contains the source code for the website, which provides curated resources, links to top YouTube channels, reference books, and future application ideas to empower you on your blockchain journey.
 
 ![Blockchain101 Preview](./preview.png)
 
