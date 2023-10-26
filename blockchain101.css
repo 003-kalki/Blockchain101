@@ -84,6 +84,7 @@ body {
   margin-top: 135px;
   display: flex;
   align-items: center;
+  margin-left: 11px;
 }
 
 .nav-item {
